@@ -1,0 +1,273 @@
+#box0{
+    display:flex;
+    flex-direction:column;
+    height:100svh;
+    background-color:hwb(348 35% 9%);
+   
+    
+    
+
+}
+
+#box2{
+    display:flex;
+    height:100svh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#box4{
+    height:100svh;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+#box5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: auto;
+    height:60svh;
+    background-color: blue;
+    gap:10px;
+}
+#box6{
+    margin-bottom: auto;
+    height:40svh;
+    background-color:yellow;
+    }
+#mini-box1{
+    margin-top: 18px ;
+height:33svh;
+width: 28svh;
+background-color: bisque;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+gap:7px;
+
+}
+#mini-box2{
+    margin-top: 18px ;
+ height:33svh;
+ width: 28svh;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+gap:7px;
+
+}
+#mini-box3{
+ margin-top: 30px;
+height:35svh;
+width: 28svh;
+background-color: brown;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+gap: 3px;
+
+
+}
+
+
+h1{
+    font-size:32px;
+    
+    color:white;
+    font-weight:500;
+    position:relative;
+    left:120px;
+    top:40px;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+    gap:10px;
+}
+.links{
+color: lightgrey;
+display: flex;
+justify-content: space-between;
+padding-right: 70px;
+margin-top: -100px;
+font-size: 10px;
+}
+
+.s{
+    font-size: 70px;
+    margin-left: 120px;
+    margin-top: 150px;
+    position: absolute; 
+    top: 40px; 
+    font-weight: 500;
+    color: white;
+    max-width:50% ; 
+  }
+#box1{
+    margin-top:auto;
+     height:30dvh;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+   
+}
+#mini-box4{
+    height:20svh;
+    width: 28svh;
+    background-color: bisque;
+    
+    }
+    #mini-box5{
+    height:20svh;
+    width: 28svh;
+    background-color: white;
+    
+    }
+    #mini-box6{
+    height:20svh;
+    width: 28svh;
+    background-color: beige;
+    
+    }
+    .mkttitle1{
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+
+    }
+    .mkttitle2{
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+
+    }
+    .mkttitle3{
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+
+    }
+    .marketing1{
+       color:lightgrey 
+    }
+    .marketing2{
+        color:lightgrey 
+     }
+     .marketing3{
+        
+        color:lightgrey 
+     }
+     #box3{
+    
+        background-color: salmon;
+        height:95svh;
+        width:100%;
+       
+    }
+    .doglove{
+        font-size:5svh;
+        color: white;
+        width:90vh;
+        position: absolute;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 23%;
+        
+    }
+    .location{
+        font-size: 3svh;
+        color:white;
+        position: absolute;
+        
+        margin-top: 40%;
+        margin-left: 55%;
+        
+    }
+    .planbig{
+        font-size: 4svh;
+        color:black;
+        position: absolute;
+        margin-bottom: 58svh;
+
+    }
+    .plansmall{
+        font-size: 2svh;
+        color:black;
+        position: absolute;
+        margin-bottom: 45svh;
+
+    }
+    .DOGTYPE{
+        font-size: 4svh;
+        color: black;
+       
+       margin-bottom: 50px;
+    }
+    .DOGTYPE1{
+        font-size: 4svh;
+        color: black;
+       
+       margin-bottom: 50px;
+    }
+    .DOGTYPE2{
+        font-size: 4svh;
+        color: black;
+       
+       margin-bottom: 23px;
+    }
+    .price{
+        margin-top: -25px;
+        font-size: 4.5svh;
+        color: black;
+        background-color: grey;
+    
+    }
+    .price1{
+        margin-top:-25px;
+        font-size: 4.5svh;
+        color: black;
+        background-color: grey;
+    
+    }
+    .price2{
+        margin-top: -25px;
+        font-size: 4.5svh;
+        color: black;
+        background-color: grey;
+    
+    }
+    .features{
+        font-size:2svh;
+        color: grey;
+        margin-top: -10px;
+
+    }
+    .features1{
+        font-size:2svh;
+        color: grey;
+        margin-top: -10px;
+
+
+    }
+    .features2{
+        font-size:2svh;
+        color: grey;
+        margin-top: -10px;
+    }
