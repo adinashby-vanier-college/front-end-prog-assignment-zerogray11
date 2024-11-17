@@ -1,24 +1,27 @@
 #box0{
+   
     display:flex;
     flex-direction:column;
     height:100svh;
     background-color:hwb(348 35% 9%);
-   
+    overflow: hidden;
+    align-items: flex-start;
     
     
 
 }
 
 #box2{
+    
     display:flex;
     height:100svh;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
 }
 #box4{
-    height:100svh;
+    height:130svh;
     display:flex;
     flex-direction: column;
     background-color: white;
@@ -30,49 +33,53 @@
     justify-content: center;
     align-items:center;
     margin-top: auto;
-    height:60svh;
-    background-color: blue;
-    gap:10px;
+    height:80svh;
+    background-color: white;
+    gap:5svh;
 }
-#box6{
-    margin-bottom: auto;
-    height:40svh;
-    background-color:yellow;
-    }
-#mini-box1{
-    margin-top: 18px ;
-height:33svh;
-width: 28svh;
-background-color: bisque;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-gap:7px;
 
+
+#mini-box1 {
+    border: 1px solid rgb(231, 229, 229);
+    box-sizing: border-box;
+    margin-top: 8svh;
+    height: 48svh;
+    width: 35svh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2svh;
 }
 #mini-box2{
-    margin-top: 18px ;
- height:33svh;
- width: 28svh;
+border: 1px solid rgb(231, 229, 229);
+
+box-sizing: border-box;
+margin-top: 8svh;
+height:48svh;
+width: 35svh;
 background-color: white;
 display: flex;
 flex-direction: column;
-justify-content:center;
+justify-content:flex-start;
 align-items:center;
-gap:7px;
+gap:2svh;
 
 }
 #mini-box3{
- margin-top: 30px;
-height:35svh;
-width: 28svh;
-background-color: brown;
+border: 1px solid rgb(231, 229, 229);
+ margin-top: 18svh;
+ 
+ box-sizing: border-box;
+height:58svh;
+width: 35svh;
+background-color: white;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items:center;
-gap: 3px;
+gap: 1svh;
 
 
 }
@@ -84,8 +91,14 @@ h1{
     color:white;
     font-weight:500;
     position:relative;
-    left:120px;
+    left:70px;
     top:40px;
+
+}
+h1:hover{
+          
+    color: lightgray;
+    transform: scale(1.05);
 
 }
 .container{
@@ -103,81 +116,122 @@ padding-right: 70px;
 margin-top: -100px;
 font-size: 10px;
 }
+.links:hover{
+          
+    color: lightgray;
+    transform: scale(1.05);
+
+}
+
 
 .s{
-    font-size: 70px;
-    margin-left: 120px;
-    margin-top: 150px;
+    font-size: 11svh;
+    margin-left: 70px;
+    margin-top: 130px;
     position: absolute; 
-    top: 40px; 
+    top: 20px; 
     font-weight: 500;
     color: white;
-    max-width:50% ; 
+    max-width:60% ; 
   }
 #box1{
+    
     margin-top:auto;
-     height:30dvh;
-    background-color: grey;
+     height:35dvh;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    gap:10px;
+    gap:100px;
+   
    
 }
 #mini-box4{
     height:20svh;
     width: 28svh;
-    background-color: bisque;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+
+    
+
     }
     #mini-box5{
     height:20svh;
     width: 28svh;
-    background-color: white;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    
     
     }
     #mini-box6{
-    height:20svh;
-    width: 28svh;
-    background-color: beige;
     
-    }
+    height:30svh;
+    width: 35svh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+     }
     .mkttitle1{
-        position: relative;
-        text-align: center;
+        
         font-size: 20px;
         color: black;
+        font-weight: 500;
 
     }
     .mkttitle2{
-        position: relative;
-        text-align: center;
+       
+        margin-top: 20px;
         font-size: 20px;
         color: black;
+        font-weight: 500;
 
     }
-    .mkttitle3{
-        position: relative;
-        text-align: center;
+    .mkttitle3, .marketing3, .marketing1, .mkttitle1, .marketing2, .mkttitle2{
+        margin:0;
+    }
+   
+     .mkttitle3{  
+        
         font-size: 20px;
         color: black;
+        text-align: center;
+        font-weight: 500;
 
     }
     .marketing1{
-       color:lightgrey 
+      margin-bottom: 3px; 
+       max-width: 95%;
+       text-align: center;
+       color:grey; 
+       
     }
     .marketing2{
-        color:lightgrey 
+        margin-bottom: -1px; 
+        
+        color:grey;
+        text-align: center;
      }
      .marketing3{
-        
-        color:lightgrey 
+        margin-bottom: -2px; 
+        color:grey ;
+        text-align: center;
      }
      #box3{
     
         background-color: salmon;
-        height:95svh;
+        height:85svh;
         width:100%;
        
     }
@@ -194,64 +248,84 @@ font-size: 10px;
     .location{
         font-size: 3svh;
         color:white;
-        position: absolute;
-        
-        margin-top: 40%;
-        margin-left: 55%;
+        margin-top: -10svh;
+        margin-left: 93svh;
+        z-index: 5;
         
     }
     .planbig{
         font-size: 4svh;
         color:black;
+        font-weight: 200;
         position: absolute;
-        margin-bottom: 58svh;
+        margin-bottom: 65svh;
+
 
     }
     .plansmall{
+        font-weight: 200;
         font-size: 2svh;
-        color:black;
+        color:darkgray;
         position: absolute;
-        margin-bottom: 45svh;
+        margin-bottom: 54svh;
 
     }
-    .DOGTYPE{
+    .DOGTYPE {
+       background-color: rgb(231, 229, 229);
+       border: 3px solid rgb(231, 229, 229);
         font-size: 4svh;
         color: black;
+        font-weight: 300;
+        margin-bottom: 3svh;
+        box-sizing: border-box;
+        width: 100%; 
+        text-align: center; 
        
-       margin-bottom: 50px;
+        padding:10px;
     }
+   
     .DOGTYPE1{
+        background-color: rgb(231, 229, 229);
+        border: 3px solid rgb(231, 229, 229);; 
+        padding: 10px; 
+        box-sizing: border-box; 
+        font-weight: 300;
         font-size: 4svh;
         color: black;
-       
-       margin-bottom: 50px;
+       width:100%;
+       text-align:center ;
+       margin-bottom: 3.75svh;
     }
     .DOGTYPE2{
+        background-color: rgb(231, 229, 229);
+        border: 3px solid rgb(231, 229, 229);
+        padding: 10px;
+        box-sizing: border-box; 
+        font-weight: 300;
         font-size: 4svh;
         color: black;
-       
+       width: 100%;
+       text-align: center;
        margin-bottom: 23px;
     }
     .price{
+
         margin-top: -25px;
         font-size: 4.5svh;
         color: black;
-        background-color: grey;
+       
     
     }
     .price1{
         margin-top:-25px;
         font-size: 4.5svh;
         color: black;
-        background-color: grey;
     
     }
     .price2{
         margin-top: -25px;
         font-size: 4.5svh;
         color: black;
-        background-color: grey;
-    
     }
     .features{
         font-size:2svh;
@@ -271,3 +345,247 @@ font-size: 10px;
         color: grey;
         margin-top: -10px;
     }
+   
+    #box6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:50svh;
+        background-color:hwb(348 35% 9%);
+       
+        
+        
+    
+        }
+        .doggy{
+           max-width: 100%;
+            width: 50svh;
+            height: 90svh;
+           margin-top:-60svh;
+           margin-left:120svh;
+            transform: rotate(20deg);
+        
+
+        }
+        .nydog{
+       border-radius: 50%;
+       width: 10vw;
+       margin-top: 45svh;
+       margin-left: 72svh;
+          
+        }
+    .logos{
+    display: flex;           
+    justify-content: center; 
+    align-items: center;      
+    gap: 10px;                 
+    position: absolute;      
+    top: 75vh;              
+    margin-left: 2svh; 
+
+        }
+        .businessinsider, .mashable, .tnw, .crunch{
+       margin-top: 135svh;
+       margin-right: 0vh;
+        width:20vh;
+       
+        }
+        
+        .button-container {
+                display: flex;
+                gap: 20px;  
+                margin-top: 70svh;
+                margin-left: 20vh;  
+                justify-content: center; 
+               
+            }
+        .btn-dark{
+            width:10svh;
+            border-radius: 5px;
+            border: 0;
+            width: 23svh;
+            
+        }
+        .btn-dark svg{
+        margin-bottom: 3px;
+        margin-right: 5px; 
+        width: 15px;
+        height: 20px;
+        }
+        .btn-light svg{
+        margin-bottom: 3px;
+        margin-right: 5px; 
+        width: 15px;
+        height: 20px;
+        }
+        .btn-light{
+            
+            width:18svh;
+            border-radius: 5px;
+            border: 1px solid black;
+            width: 23svh;
+          
+        }
+       .bi-heart{
+        color:salmon;
+        fill: salmon;
+        
+
+       }
+       .bi-right{
+        margin-top: 20svh;
+        margin-left: 90svh;
+       }
+       
+        .chevronright {
+        position:absolute;
+            margin-top: 99svh; 
+            margin-left: 165svh; 
+            color: white; 
+            z-index: 10; 
+        }
+        .chevronleft {
+               position:absolute;
+               margin-top: 22svh; 
+               margin-right: 165svh; 
+               
+               color: white; 
+               z-index: 10; 
+        }
+        .chevronright:hover{
+          
+            color: lightgray;
+            transform: scale(1.05);
+       
+    }
+          
+    .chevronleft:hover{
+      
+            color: lightgray;
+            transform: scale(1.05);
+       
+    }
+
+        .btn-dark1{
+            border-radius: 5px;
+            border: 0;
+            width: 23svh;
+            background-color:rgb(64, 64, 64);
+            color:white;
+
+        }
+       
+
+      
+        .final{
+           
+          
+            font-size:5svh; 
+            width: 90svh;
+            color:white;
+            margin:0auto;
+            margin-top: 0svh;
+            text-align: center;
+            width: 70svh;
+            line-height: 1.75;
+
+        }
+        .boxfinal{
+            position: flex;
+            flex-direction: row;
+            justify-content: center;
+           
+           
+        }
+        .finaldark, .finallight{
+            margin-top: 2svh;
+            margin-left: 8svh;
+            width: 20svh;
+            border-radius: 5px;
+            border: 0;
+            width: 23svh;
+           
+        }
+        .finaldark{
+           background-color:rgb(64, 64, 64);
+           color:white;
+        }
+        .finallight{
+            background-color: white;
+        }
+        .finallight svg{
+        margin-bottom: 3px;
+        margin-right: 5px; 
+        width: 15px;
+        height: 20px;
+        }
+        .finaldark svg{
+        margin-bottom: 3px;
+        margin-right: 5px; 
+        width: 15px;
+        height: 20px;
+        }
+        #box7 {
+            
+            height: 60svh; 
+            width: 100%;
+            position:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #box8{
+          
+        
+            margin-top: 22svh;
+            margin-left: 84svh;
+            height:4svh;
+            width:20%;
+            position: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+           
+
+           
+           
+
+        }
+        .copyright{
+            font-size: 20px;
+            width: 60svh;
+            
+            color:lightgray;
+            margin-top: 6svh;
+            margin-left: 74svh;
+           
+
+        }
+        .copyright svg{
+            margin-bottom: 3px;
+            margin-right: 5px; 
+            width: 10px;
+            height: 10px;
+
+        }
+       
+        
+       
+        .btn-dark1:hover {
+            background-color: #585656; 
+        }
+        .btn-light:hover {
+            background-color: lightgray;
+            transform: scale(1.05); 
+        }
+        .finaldark:hover {
+            background-color: #444343; 
+            transform: scale(1.05); 
+        }
+        .finallight:hover {
+            background-color: lightgray; 
+            transform: scale(1.05); 
+        }
+        
