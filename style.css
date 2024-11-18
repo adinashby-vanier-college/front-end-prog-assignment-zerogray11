@@ -75,9 +75,7 @@ p{
   font-size:4svh ;
   margin-left: 1vw;
 }
-.converse{
 
-}
 h3 {
   font-family: Tahoma;
   color: white;
@@ -142,15 +140,18 @@ h4 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 #box4:hover {
   background-color: white;
 }
+.converse{
+  margin-top:4vh;
+}
 
 .minibox-container {
-  margin-top: 0vh;
+  margin-top: -1vh;
   
   display: flex; 
   justify-content: row;
